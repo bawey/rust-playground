@@ -1,6 +1,5 @@
 use std::io;
-
-mod demos;
+use rust_playground::demos as demos;
 
 fn feature_picker() -> u8 {
     let mut buffer: String = String::new();
