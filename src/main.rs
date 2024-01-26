@@ -28,6 +28,7 @@ fn main() {
             1 => demos::loops::demo_loop_over_range(),
             2 => demos::structs::demo_structs_printing(),
             3 => demos::fibonacci::demo_fibonacci_main(),
+            4 => demos::concurrency::demo_hello_tokio(),
             _ => {
                 println!("Invalid choice, please retry");
             }
