@@ -29,6 +29,7 @@ fn main() {
             2 => demos::structs::demo_structs_printing(),
             3 => demos::fibonacci::demo_fibonacci_main(),
             4 => demos::concurrency::demo_hello_tokio(),
+            5 => demos::concurrency::demo_threading(),
             _ => {
                 println!("Invalid choice, please retry");
             }
